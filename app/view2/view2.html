@@ -1,0 +1,7 @@
+<p>This is the partial for view 2.</p>
+<p>
+  Showing of 'interpolate' filter:
+  {{ 'Current version is v%VERSION%.' | interpolate }}
+</p>
+
+<donut-chart data="chart" ng-repeat="chart in charts" ng-style="{width: 200 / charts.length + '%' }"></donut-chart>
