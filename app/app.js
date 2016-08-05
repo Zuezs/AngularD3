@@ -13,6 +13,7 @@ angular.module('myApp', [
   'myApp.view6',
   'myApp.view7',
   'myApp.view8',
+  'myApp.view9',
   'myApp.version'
 ]).
 config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
